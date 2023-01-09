@@ -22,7 +22,6 @@ img{
     background-size: 100%;
     height: 100vh;
     position: relative;
-  
 }
 
 .box_img{
@@ -34,7 +33,6 @@ img{
     animation-iteration-count: infinite;
     animation-timing-function: cubic-bezier(0,0,0,0);
     position: absolute;
-
 }
 
 @keyframes rotation {
@@ -60,8 +58,6 @@ img{
     }
 
     90%{
-        transform: translate(1000px) translateX(500px) rotate(-25deg) translateY(-400px);
+        transform: translate(1000px) translateX(500px) rotate(-20deg) translateY(-400px);
     }
-
- 
 }
